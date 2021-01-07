@@ -24,9 +24,11 @@
 			right: 0;
 		}
 	</style>
+	<script src="https://unpkg.com/@ungap/custom-elements-builtin"></script>
+	<script src="x-frame-bypass.js" type="module"></script>
 </head>
 <body>
 	<h1>CREATE ACCOUNT IFRAME</h1>
-	<iframe src="https://johsports.alpha.gameaccount.com/create-account.shtml"></iframe>
+	<iframe is="x-frame-bypass" src="https://johsports.alpha.gameaccount.com/create-account.shtml"></iframe>
 </body>
 </html>
